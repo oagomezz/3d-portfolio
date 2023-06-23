@@ -8,7 +8,7 @@ const Computers = () => {
   const computer = useGLTF('./desktop_pc/scene.gltf')
   return (
     <mesh>
-      {/* hemisphere light adjusts the lighting of the scene, increasing intensity increases brightness of color. groundColor changes the base of the object, giving it the initial value indicated can you hexcolor value or string values  */}
+      {/* hemisphere light adjusts the lighting of the scene, increasing intensity increases brightness of color. groundColor changes the base of the object, giving it the initial value indicated can you hexcolor value or string values */}
       <hemisphereLight 
         intensity={0.1} 
         groundColor="black"/>
