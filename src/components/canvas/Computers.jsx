@@ -27,7 +27,6 @@ const Computers = () => {
     </mesh>
   )
 }
-
 const ComputersCanvas = () => {
   return (
     <Canvas
