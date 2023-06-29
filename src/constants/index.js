@@ -110,15 +110,16 @@ import {
   
   const experiences = [
     {
-      title: "Web Developer",
-      company_name: "Mind At Bay",
-      icon: MindAtBay,
-      iconBg: "white",
-      date: "February 2023 - May 2023",
+      title: "Full Stack Web Developer",
+      company_name: "LEARN ACADEMY",
+      icon: learnacademy,
+      iconBg: "#313133",
+      date: "November 2022 - April 2023",
       points: [
-        "Developing a progressive web app (PWA) and native mobile apps with FlutterFlow.",
-        "Communicating with stakeholders when there are roadblocks or limitations with design, legal team, or development.",
-        "Making informed decisions about the tech stack according to stakeholder and user need.",
+        "Completed 480 hours of direct coding experience in an intensive remote development bootcamp.",
+        "Developed a series of monolithic and decoupled applications that utilize a front-end built with React.js and a back-end powered by Ruby on Rails with integrated databases.",
+        "Strong understanding of ActiveRecord's associations to establish and navigate relationships between database tables.",
+        "Actively participated in Agile ceremonies, such as daily stand-ups, sprint planning, and retrospectives, to foster continuous improvement and deliver customer value iteratively.",
       ],
     },
     {
@@ -135,16 +136,15 @@ import {
       ],
     },
     {
-      title: "Full Stack Web Developer",
-      company_name: "LEARN ACADEMY",
-      icon: learnacademy,
-      iconBg: "#313133",
-      date: "November 2022 - April 2023",
+      title: "Web Developer",
+      company_name: "Mind At Bay",
+      icon: MindAtBay,
+      iconBg: "white",
+      date: "February 2023 - May 2023",
       points: [
-        "Completed 480 hours of direct coding experience in an intensive remote development bootcamp.",
-        "Developed a series of monolithic and decoupled applications that utilize a front-end built with React.js and a back-end powered by Ruby on Rails with integrated databases.",
-        "Strong understanding of ActiveRecord's associations to establish and navigate relationships between database tables.",
-        "Actively participated in Agile ceremonies, such as daily stand-ups, sprint planning, and retrospectives, to foster continuous improvement and deliver customer value iteratively.",
+        "Developing a progressive web app (PWA) and native mobile apps with FlutterFlow.",
+        "Communicating with stakeholders when there are roadblocks or limitations with design, legal team, or development.",
+        "Making informed decisions about the tech stack according to stakeholder and user need.",
       ],
     },
   ];
