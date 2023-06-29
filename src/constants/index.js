@@ -1,8 +1,10 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
+    cherryBlossom,
+    mountain,
+    carpfish,
+    learnacademy,
+    MindAtBay,
+    XplorStem,
     javascript,
     typescript,
     html,
@@ -15,15 +17,12 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
   } from "../assets";
+  
   
   export const navLinks = [
     {
@@ -31,8 +30,8 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "Projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -43,20 +42,15 @@ import {
   const services = [
     {
       title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
+      icon: carpfish,
     },
     {
       title: "Backend Developer",
-      icon: backend,
+      icon: cherryBlossom,
     },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    {  title: "Full Stack Developer",
+      icon: mountain,
+    }
   ];
   
   const technologies = [
@@ -116,55 +110,41 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      company_name: "Mind At Bay",
+      icon: MindAtBay,
+      iconBg: "white",
+      date: "February 2023 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing a progressive web app (PWA) and native mobile apps with FlutterFlow.",
+        "Communicating with stakeholders when there are roadblocks or limitations with design, legal team, or development.",
+        "Making informed decisions about the tech stack according to stakeholder and user need.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Web Developer (Intern)",
+      company_name: "XplorStem Academy",
+      icon: XplorStem,
+      iconBg: "white",
+      date: "March 2023 - April 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Successfully filtered and formatted over 30 data tables, enabling dynamic data exchange for web application users..",
+        "Employed effective communication strategies to collaboratively develop applications in pair and mob programming settings.",
+        "Improved testing efficiency and effectiveness by implementing mock functions and fixtures for dependencies and API calls.",
+        "Collaborated with development team to establish testing best practices and incorporate testing into the development process.",
+      ],
+    },
+    {
+      title: "Full Stack Web Developer",
+      company_name: "LEARN ACADEMY",
+      icon: learnacademy,
+      iconBg: "#313133",
+      date: "November 2022 - April 2023",
+      points: [
+        "Completed 480 hours of direct coding experience in an intensive remote development bootcamp.",
+        "Developed a series of monolithic and decoupled applications that utilize a front-end built with React.js and a back-end powered by Ruby on Rails with integrated databases.",
+        "Strong understanding of ActiveRecord's associations to establish and navigate relationships between database tables.",
+        "Actively participated in Agile ceremonies, such as daily stand-ups, sprint planning, and retrospectives, to foster continuous improvement and deliver customer value iteratively.",
       ],
     },
   ];
