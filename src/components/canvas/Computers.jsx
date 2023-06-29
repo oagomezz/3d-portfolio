@@ -5,22 +5,22 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei"
 import CanvasLoader from '../Loader'
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF('./desktop_pc/scene.gltf')
+  const computer = useGLTF('./lighthouse/scene.gltf')
   return (
     <mesh>
       {/* hemisphere light adjusts the lighting of the scene, increasing intensity increases brightness of color. groundColor changes the base of the object, giving it the initial value indicated can you hexcolor value or string values */}
       <hemisphereLight 
-        intensity={0.1} 
+        intensity={0.3} 
         groundColor="black"/>
         {/* pointLight adjusts the intensity of the light commented out it darkens the object */}
-        <pointLight intensity={1} />
+        <pointLight intensity={0.5} />
         {/* spotLight adjusts the lighting from an aerial perspective */}
         <spotLight 
-          position={[-20,50,10]} 
+          position={[-20,0,0]} 
           // angle changes the size of the light's spotlight focus on back left of the object to notice the difference in the spotlight position
-          angle={0.12}
+          angle={0.17}
           penumbra={1}
-          intensity={1}
+          intensity={0.5}
           castShadow
           shadow-mapSize={1024}
         />
@@ -28,9 +28,9 @@ const Computers = ({ isMobile }) => {
           
         <primitive 
           object={computer.scene}
-          scale={ isMobile ? 0.55 : 0.7}
-          position={isMobile ? [-2, -2, -2.2] : [3,-3.25,-1.5]}
-          rotation={[-0.01, -0.2, -0.1]}
+          scale={ isMobile ? 1.2 : 1.5}
+          position={isMobile ? [0.3, -1.0, 0] : [-0.5,-1.3,0.1]}
+          rotation={[0, 2.8, 0]}
         />
     </mesh>
   )
@@ -63,7 +63,7 @@ const ComputersCanvas = () => {
     <Canvas
       frameloop='demand'
       shadows
-      camera={{position: [20, 3,5], fov: 25 }}
+      camera={{position: [-5,5,0], fov: 25 }}
       gl={{ preserveDrawingBuffer: true}}
     > 
       <Suspense fallback={<CanvasLoader />}>
