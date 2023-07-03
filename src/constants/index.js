@@ -6,21 +6,19 @@ import {
     MindAtBay,
     XplorStem,
     javascript,
-    typescript,
+    ruby,
+    rubyonrails,
+    bootstrap,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
     figma,
-    docker,
     carrent,
     jobit,
     tripguide,
-    threejs,
   } from "../assets";
   
   
@@ -67,16 +65,20 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Ruby on Rails",
+      icon: rubyonrails,
+    },
+    {
+      name: "Ruby",
+      icon: ruby,
+    },
+    {
+      name: "Bootstrap",
+      icon: bootstrap,
     },
     {
       name: "Tailwind CSS",
@@ -87,24 +89,12 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
     {
       name: "figma",
       icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
