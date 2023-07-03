@@ -26,9 +26,12 @@ import XplorStem from './company/XplorStem.png';
 import MindAtBay from './company/MindAtBay.png';
 import learnacademy from './company/learnacademy.png';
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import treklog from "./treklog.png"
+import activexcel from "./activexcel.png";
+import budgetapp from "./budgetapp.png";
+import barkbuddies from "./barkbuddies.png";
+import ecommercestore from "./ecommercestore.png";
+import friendlist from "./friendlist.png";
 
 export {
   logo,
@@ -58,4 +61,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  treklog,
+  activexcel,
+  budgetapp,
+  ecommercestore,
+  friendlist,
+  barkbuddies,
 };
