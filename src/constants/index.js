@@ -183,7 +183,7 @@ import {
         },
       ],
       image: treklog,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/CMOD-Coders/treklog",
     },
     {
       name: "ActivExcel",
@@ -204,7 +204,7 @@ import {
         },
       ],
       image: activexcel,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/oagomezz/FitnessApp",
     },
     {
       name: "Budget App",
@@ -225,7 +225,7 @@ import {
         },
       ],
       image: budgetapp,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/oagomezz/budgetApp",
     },
     {
       name: "BarkBuddies",
@@ -246,7 +246,7 @@ import {
         },
       ],
       image: barkbuddies,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/learn-academy-2022-hotel/cat-tinder-frontend-bark-buddies",
     },
     {
       name: "Ecommerce Store",
@@ -267,7 +267,7 @@ import {
         },
       ],
       image: ecommercestore,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/oagomezz/ecommerce",
     },
     {
       name: "Friend's List",
@@ -288,7 +288,7 @@ import {
         },
       ],
       image: friendlist,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/oagomezz/Friends-List",
     },
   ];
   
