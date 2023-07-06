@@ -2,7 +2,7 @@ import {Suspense, useEffect, useState} from "react"
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei"
 
-import CanvasLoader from '../Loader'
+import CanvasLoader from "../loader"
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF('./lighthouse/scene.gltf')
@@ -29,7 +29,7 @@ const Computers = ({ isMobile }) => {
         <primitive 
           object={computer.scene}
           scale={ isMobile ? 1.2 : 1.5}
-          position={isMobile ? [0.3, -1.0, 0] : [-0.5,-1.3,0.1]}
+          position={isMobile ? [0.3, -1, 0] : [-0.5,-1.3,0.1]}
           rotation={[0, 2.8, 0]}
         />
     </mesh>

@@ -171,15 +171,15 @@ import {
       tags: [
         {
           name: "react",
-          color: "blue-text-gradient",
+          color: "red-text-gradient",
         },
         {
           name: "ruby on rails",
-          color: "green-text-gradient",
+          color: "white-text-gradient",
         },
         {
           name: "scss",
-          color: "pink-text-gradient",
+          color: "green-text-gradient",
         },
       ],
       image: treklog,
@@ -192,15 +192,15 @@ import {
       tags: [
         {
           name: "ruby on rails",
-          color: "blue-text-gradient",
+          color: "red-text-gradient",
         },
         {
           name: "bootstrap",
-          color: "green-text-gradient",
+          color: "white-text-gradient",
         },
         {
           name: "postgreSQL",
-          color: "pink-text-gradient",
+          color: "green-text-gradient",
         },
       ],
       image: activexcel,
@@ -213,15 +213,15 @@ import {
       tags: [
         {
           name: "reactjs",
-          color: "blue-text-gradient",
+          color: "red-text-gradient",
         },
         {
           name: "bootstrap",
-          color: "green-text-gradient",
+          color: "white-text-gradient",
         },
         {
           name: "javascript",
-          color: "pink-text-gradient",
+          color: "green-text-gradient",
         },
       ],
       image: budgetapp,
@@ -234,15 +234,15 @@ import {
       tags: [
         {
           name: "reactjs",
-          color: "blue-text-gradient",
+          color: "red-text-gradient",
         },
         {
           name: "ruby on rails",
-          color: "green-text-gradient",
+          color: "white-text-gradient",
         },
         {
           name: "ruby",
-          color: "pink-text-gradient",
+          color: "green-text-gradient",
         },
       ],
       image: barkbuddies,
@@ -255,15 +255,15 @@ import {
       tags: [
         {
           name: "reactjs",
-          color: "blue-text-gradient",
+          color: "red-text-gradient",
         },
         {
           name: "materialui",
-          color: "green-text-gradient",
+          color: "white-text-gradient",
         },
         {
           name: "javascript",
-          color: "pink-text-gradient",
+          color: "green-text-gradient",
         },
       ],
       image: ecommercestore,
@@ -276,15 +276,15 @@ import {
       tags: [
         {
           name: "reactjs",
-          color: "blue-text-gradient",
+          color: "red-text-gradient",
         },
         {
           name: "bootstrap",
-          color: "green-text-gradient",
+          color: "white-text-gradient",
         },
         {
           name: "javascript",
-          color: "pink-text-gradient",
+          color: "green-text-gradient",
         },
       ],
       image: friendlist,
