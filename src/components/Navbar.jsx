@@ -23,8 +23,8 @@ return (
           <img 
             src={logo} 
             alt='logo' 
-            className="w-9 h-9 object-contain" />
-            <p className='text-primary text-[18px] font-bold cursor-pointer flex'>Oscar &nbsp;<span className='sm:block hidden'>| OAGomezz</span></p>
+            className="w-11 h-11 object-contain" />
+            <p className='text-primary text-[18px] font-bold cursor-pointer flex'>Oscar Gomez &nbsp;<span className='sm:block hidden'>| Web Developer</span></p>
         </Link>
           <ul className='list-none hidden sm:flex flex-row gap-10'>
             {navLinks.map((link) => (
