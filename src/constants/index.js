@@ -31,8 +31,12 @@ import {
       title: "About",
     },
     {
-      id: "Projects",
-      title: "Projects",
+      id: "experience",
+      title: "Experience",
+    },
+    {
+      id: "works",
+      title: "Works",
     },
     {
       id: "contact",
@@ -145,27 +149,17 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "During his time at LEARN Academy, Oscar consistently exhibited professionalism, punctuality, and reliability. He consistently met deadlines, took initiative to go above and beyond the required course work, and was always well-prepared for class sessions. His strong organizational skills and attention to detail were evident in the consistently high-quality work he produced.",
+      name: "Nicole Mares",
+      designation: "Instructor",
+      company: "LEARN Academy",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Oscar is an outstanding developer who can add immense value to any organization. He is driven and passionate about his work, making him an asset to any team. I would highly recommend him, and hope to collaborate with him in the future!",
+      name: "Ariana Brashear",
+      designation: "Software Engineer",
+      company: "XplorStem Academy",
     },
   ];
   
