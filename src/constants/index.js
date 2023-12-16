@@ -22,6 +22,8 @@ import {
     barkbuddies,
     ecommercestore,
     friendlist,
+    creativeStitchworkz,
+    monstersRolodex
   } from "../assets";
   
   
@@ -165,6 +167,48 @@ import {
   
   const projects = [
     {
+      name: "Monsters Rolodex",
+      description:
+        "Application created to practice the differences between functional components and class components. Primary focus was obtaining the ability to make asynchronous functions pull in pictures while using template literals to determine the endpoint being requested. State variables were created to provide dynamic ability of filtering through the list as a user narrowed their search results." ,
+      tags: [
+        {
+          name: "react",
+          color: "red-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "white-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+      ],
+      image: monstersRolodex,
+      source_code_link: "https://github.com/oagomezz/monsters-rolodex",
+    },
+    {
+      name: "Creative Stitchworkz",
+      description:
+        "Application requested by company owner as a means to consolidate information to be more accessible by customers. Responsiveness of the application will allow customers to validate owners previous work and read some testimonials from previous satisfied customers. Contact form active. " ,
+      tags: [
+        {
+          name: "react",
+          color: "red-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "white-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+      ],
+      image: creativeStitchworkz,
+      source_code_link: "https://github.com/oagomezz/creative-stitchworkz",
+    },
+    {
       name: "TrekLog",
       description:
         "I was the project lead on a team of 4 members, This monolithic app has full CRUD capabilities and utilizes RESTful routing. We used React front-end with Rails backend and a PostgreSQL database. We acheived 70% test coverage on Jest and RSpec.",
@@ -268,27 +312,6 @@ import {
       ],
       image: ecommercestore,
       source_code_link: "https://github.com/oagomezz/ecommerce",
-    },
-    {
-      name: "Friend's List",
-      description:
-        "Ruby on Rails Application created to better understand the use of bootstrap on the MVC architecture of Rails and uploading DB's to Render to support a live application. Application supports full CRUD functionality, along with filters between different accounts.",
-      tags: [
-        {
-          name: "reactjs",
-          color: "red-text-gradient",
-        },
-        {
-          name: "bootstrap",
-          color: "white-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "green-text-gradient",
-        },
-      ],
-      image: friendlist,
-      source_code_link: "https://github.com/oagomezz/Friends-List",
     },
   ];
   

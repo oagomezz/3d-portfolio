@@ -1,7 +1,6 @@
 import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
-import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -32,6 +31,8 @@ import budgetapp from "./budgetapp.png";
 import barkbuddies from "./barkbuddies.png";
 import ecommercestore from "./ecommercestore.png";
 import friendlist from "./friendlist.png";
+import creativeStitchworkz from './creativeStitchworkz.png';
+import monstersRolodex from "./monstersRolodex.png";
 
 export {
   logo,
@@ -64,4 +65,6 @@ export {
   ecommercestore,
   friendlist,
   barkbuddies,
+  creativeStitchworkz,
+  monstersRolodex
 };

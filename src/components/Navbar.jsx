@@ -1,17 +1,19 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import { styles } from '../styles'
 import { navLinks } from '../constants'
 import {logo, menu, close  } from '../assets'
+import Resume  from '../assets/Resume.pdf'
 
 const Navbar = () => {
   const [active, setActive ] = useState('')
   const [toggle, setToggle ] = useState(false)
+
 return (
   <>
     <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-[#B22222]`}>
-      <div className='w-full flex justify-between items-center max-w-7x1 mx-auto'>
+      <div className='w-full flex justify-between items-center max-w-6x1 mx-auto'>
         <Link 
           to='/'
           className='flex items-center gap-2'
@@ -40,6 +42,10 @@ return (
                 <a href={`#${link.id}`}>{link.title}</a>
               </li>
             ))}
+            <li>
+            <a href={Resume} download className='text-primary hover:text-white text-[18px] font-poppins font-medium cursor-pointer'
+                    >Resume</a>
+            </li>
           </ul>
 
           <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -67,6 +73,10 @@ return (
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
+                <li>
+                  <a href={Resume} download className='text-secondary hover:text-white text-[16px] font-poppins font-medium cursor-pointer'
+                    >Resume</a>
+                </li>
               </ul>
             </div>
           </div>

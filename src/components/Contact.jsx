@@ -31,7 +31,7 @@ const Contact = () => {
       "template_nlq71n1",
       { from_name: form.name,
         to_name: 'Oscar Gomez',
-        from_email: 'form.email',
+        from_email: form.email,
         to_email: 'ogomezbarragan437@gmail.com',
         message: form.message,
       },
@@ -39,7 +39,7 @@ const Contact = () => {
       )
       .then(() => {
         setLoading(false)
-        alert('Thank you, I will get backc to you as soon as possible!'),
+        alert('Thank you, I will get back to you as soon as possible!'),
 
       setForm({
         name: '',
