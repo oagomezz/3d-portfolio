@@ -8,14 +8,16 @@ import { fadeIn, textVariant } from '../utils/motion'
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
   return (
-    <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)} >
+    <div className="bg-[#333333] p-2 rounded-[20px] sm: w-[360px] w-full">
+    <motion.div variants={fadeIn('', '', index * 0.5, 0.75)} >
       <Tilt
         options={{ 
           max: 45,
           scale: 1,
           speed: 450
         }}
-        className="bg-tertiary  shadow-card p-5 rounded-[20px] sm: w-[360px] w-full">
+        className="bg-[black] p-5 rounded-[20px] sm: w-[360px] w-full">
+          
           <div className="relative w-full h-[230px]">
             <img 
               src={image}
@@ -45,26 +47,23 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           </div>
       </Tilt>
     </motion.div>
+    </div>
   )
 }
 const Works = () => {
   return (
-    <>
-    <motion.div variants={fadeIn('', '', 0.1,1)}
-    className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        <h2 className={styles.sectionHeadText}>Portfolio</h2>
-      </motion.div>
-
-    <div className='mt-20 flex flex-wrap gap-7'>
-      {projects.map((project,index) => (
-        <ProjectCard 
-        key={`project-${index}`} 
-        index={index}
-        {...project}
-        />
-      ))}
+    <div>
+      <h2 className={styles.sectionHeadText}>Portfolio</h2>
+      <div className='grid gap-10 grid-cols-3 mt-20'>
+        {projects.map((project,index) => (
+          <ProjectCard 
+          key={`project-${index}`} 
+          index={index}
+          {...project}
+          />
+        ))}
+      </div>
     </div>
-    </>
 )}
 
 export default SectionWrapper(Works, 'works')

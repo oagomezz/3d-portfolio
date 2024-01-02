@@ -8,8 +8,9 @@ import { textVariant } from '../utils/motion'
 
 const ExperienceCard = ({experience}) => {
   return(
+    <div className='bg-[#333333] p-1 m-5 rounded-[25px]'>
     <VerticalTimelineElement
-    contentStyle={{background: '#b22222', color: '#fff', borderRadius: '25px'}}
+    contentStyle={{background: '#b22222', color: '#fff', borderRadius: '25px', margin: '10px'}}
     contentArrowStyle={{ borderRight: '7px solid #232631'}}
     date={experience.date}
     iconStyle={{background: experience.iconBg}}
@@ -36,6 +37,7 @@ const ExperienceCard = ({experience}) => {
         })}
       </ul>
   </VerticalTimelineElement>
+  </div>
 )}
 
 const Experience = () => {

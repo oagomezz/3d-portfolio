@@ -23,7 +23,8 @@ import {
     ecommercestore,
     friendlist,
     creativeStitchworkz,
-    monstersRolodex
+    monstersRolodex,
+    dazed_clothing
   } from "../assets";
   
   
@@ -166,6 +167,27 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Dazed Clothing Co.",
+      description:
+        "This ReactFire project aimed to provide developers with hands-on exposure to key React concepts such as useContext, useEffect, asynchronous functions, and seamless integration with Firebase Firestore. The goal was to create a modern and interactive web application that not only serves as a learning resource but also showcases best practices in React development." ,
+      tags: [
+        {
+          name: "react",
+          color: "red-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "white-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "green-text-gradient",
+        },
+      ],
+      image: dazed_clothing,
+      source_code_link: "https://github.com/oagomezz/dazed-clothing",
+    },
     {
       name: "Monsters Rolodex",
       description:

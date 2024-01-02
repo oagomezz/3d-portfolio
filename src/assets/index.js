@@ -33,6 +33,7 @@ import ecommercestore from "./ecommercestore.png";
 import friendlist from "./friendlist.png";
 import creativeStitchworkz from './creativeStitchworkz.png';
 import monstersRolodex from "./monstersRolodex.png";
+import dazed_clothing from "./dazed_clothing.png"
 
 export {
   logo,
@@ -66,5 +67,6 @@ export {
   friendlist,
   barkbuddies,
   creativeStitchworkz,
-  monstersRolodex
+  monstersRolodex,
+  dazed_clothing
 };
